@@ -31,4 +31,4 @@ describe('Orange HRM Tests', () => {
     myInfoPage.fillCustomFields('212121')
     myInfoPage.saveCustomFields()
   })
-})
+}) 
