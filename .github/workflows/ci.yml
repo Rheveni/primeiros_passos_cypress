@@ -18,6 +18,7 @@ jobs:
               if: always()
               with:
                 name: Cypress Result
-                path: cypress/screenshots
-                      cypress/videos
-                      cypress/results
+                path: |
+                  cypress/screenshots
+                  cypress/videos
+                  cypress/results
